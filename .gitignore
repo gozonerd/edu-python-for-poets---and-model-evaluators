@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.cache/
+# never a secret, never a key file, in any form
+*.env
+secrets*
+*.pem
+*.key
