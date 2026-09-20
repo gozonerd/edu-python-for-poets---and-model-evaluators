@@ -18,8 +18,8 @@ for and a curriculum with a real destination learns faster than one without.
 2. **A baseline before any instruction.** Every well-designed curriculum that wants to make progress
    visible starts with a baseline. `baselines/` holds one instrument per module, each scoped to the
    posting's own use of that topic, each built to be re-administered as a parallel form later so the
-   before-and-after is a measurement rather than a feeling. Answer keys are kept out of this repo
-   so a re-take stays honest.
+   before-and-after is a measurement rather than a feeling. Each instrument's key sits beside it,
+   written against the built instrument.
 3. **Say-See-Do lessons after that**, generated with the `/say-see-do` skill: one standard, one
    objective at a target Bloom's level, three to six Say-See-Do cycles on her real work, independent
    at-bats, and a formative exit ticket that climbs Bloom's and carries a stretch item. Exit tickets

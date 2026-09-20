@@ -1,8 +1,8 @@
 # B01 — Baseline: Python as research infrastructure, scoped to the posting
 
 **Module:** M-PY (with M-SELF as the specimen principle). **Instrument:**
-`BASELINE_B01_2026-09-20_v02_I.md` (v01 retired to `deprecated/`, reason at the bottom). **Key:** held
-outside this repo so a re-take stays honest.
+`BASELINE_B01_2026-09-20_v02_I.md` (v01 retired to `deprecated/`, reason at the bottom). **Key:**
+`KEY_B01_FormA_2026-09-20_v02_I.md`, beside it, written against the built instrument.
 
 ## Why this module gets the first baseline
 
@@ -71,8 +71,7 @@ like guessing is quoted beside the band totals.
 
 The same 16 concepts, posed on a **different specimen** (candidate: the Paper B census harness, once
 she rules it public, or a sibling tool built inside the course), item for item at the same Bloom's and
-Webb's levels. Form B is written only after Form A is scored, so its items are not tuned to her Form-A
-answers.
+Webb's levels, with its own key written against it.
 
 ## How to take it
 
