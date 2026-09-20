@@ -61,7 +61,10 @@ to find.
 Part 2 of the instrument is a per-concept self-rating on four behaviourally described levels, taken
 **after all sixteen content answers are in and before any score is shown**. It is kept apart from the
 content items by the learner's ruling: asking someone how sure they are while they are answering
-changes the answering. The per-concept gap between the Part 2 self-rating and the Part 1 evidenced
+changes the answering. The mechanism she named is stereotype threat, not only measurement
+reactivity, which widens the rule: no evaluative cue sits inside the content, the instrument is
+framed as setting the curriculum's starting point rather than diagnosing ability, and self-assessment
+is its own item set afterward. The per-concept gap between the Part 2 self-rating and the Part 1 evidenced
 score is the calibration reading. Confidence running ahead of evidence marks where a quiet
 misunderstanding sits and tells the next lesson to open with a check. Confidence running behind calls
 for encouragement, not drilling. The learner's own line about which band felt like reading and which
