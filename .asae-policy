@@ -1,0 +1,50 @@
+# Martinez Methods ASAE enforcement policy — edu-python-for-poets-and-model-evaluators
+# Consumed by .githooks/commit-msg (local copy of canonical v11 + two documented patches).
+
+# visibility: private | public
+visibility: public
+
+# going-public: true | false
+# Public from the first commit. This is a course other people are meant to read.
+going-public: true
+
+# type: codebase | documentation | raw-data-collection
+type: documentation
+
+# audit_threshold: standard-2 | strict-3 | strict-5
+# strict-3, and NOT because this is low-stakes work. Krystal Martinez audited prior ASAE
+# gate logs and found that parent loops 4 and 5 dropped to nearly zero detected defects,
+# while the real lever on defect detection sits with the independent raters. Three parent
+# passes, then spend the effort on the panel. Gate-01 in this repo corroborates at n=1:
+# every finding landed in passes 1, 2, 4 and 6; passes 7, 8 and 9 found nothing.
+audit_threshold: strict-3
+
+# raters: N   (LOCAL EXTENSION — see .githooks/README.md)
+# Canonical v11 derives rater enforcement from audit_threshold >= 5 alone, so a strict-3
+# repo would get zero rater enforcement. This repo declares the count directly.
+raters: 4
+
+# The roster, in run order — rough cost ascending, then reasoning power ascending.
+# 2 American + 2 Chinese architectures; 4 distinct architectures; 2 small/cheap then 2 large.
+#   1. deepseek-v4-flash   via NVIDIA            (cheap, Chinese arch)
+#   2. gemini-3.8/3.7/3.6  via Google AI Studio  (cheap, American arch; step down on quota)
+#   3. opus-5              via subagent          (reasoning, American arch)
+#   4. kimi-k3             via NVIDIA            (reasoning, Chinese arch)
+# Rationale is Krystal Martinez's, 2026-09-20, stated as observation rather than measurement:
+# DeepSeek and Kimi triangulate well against each other and especially against Claude's
+# architecture; Kimi is the single best cross-arch choice if only one were possible; Gemini
+# is inconsistent but its hits are often findings no other architecture articulates; OpenAI
+# is priced out for API QA; GLM is unremarkable; Qwen runs literal and contrarian, and its
+# distinctive findings are usually also caught by DeepSeek or Kimi.
+cross_architectural_raters_required: 3
+
+# severity_policy: null-clean-only
+# NOT machine-enforced — the hook contains zero references to severity_policy (verified by
+# reading the hook, 2026-09-20). Any finding at any severity, including LOW and PARTIAL,
+# resets the parent counter to zero. This is parent discipline and the audit log is where
+# it is evidenced.
+severity_policy: null-clean-only
+
+# cross-shell: applicable | not-applicable
+# Markdown plus two standard-library Python programs; no platform-conditional code.
+cross-shell: not-applicable
