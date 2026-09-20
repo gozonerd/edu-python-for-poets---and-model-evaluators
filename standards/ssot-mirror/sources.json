@@ -1,0 +1,166 @@
+{
+  "_comment": "One entry per third-party text the course cites as an SSOT for instructional content. register_id matches the entry in the course repo's REGISTER_external-quality-anchors file. Nothing is mirrored that the register does not cite.",
+  "sources": [
+    {
+      "id": "C1a",
+      "register_id": "C1",
+      "slug": "sre-book-ch04-service-level-objectives",
+      "title": "Site Reliability Engineering, Chapter 4: Service Level Objectives",
+      "url": "https://sre.google/sre-book/service-level-objectives/",
+      "publisher": "Google / O'Reilly Media, 2017",
+      "licence": "CC BY-NC-ND 4.0",
+      "anchors": "Reliability as a chosen objective with a budget, not a maximum. REME-PY.2 mastery descriptor."
+    },
+    {
+      "id": "C1b",
+      "register_id": "C1",
+      "slug": "sre-book-ch06-monitoring-distributed-systems",
+      "title": "Site Reliability Engineering, Chapter 6: Monitoring Distributed Systems",
+      "url": "https://sre.google/sre-book/monitoring-distributed-systems/",
+      "publisher": "Google / O'Reilly Media, 2017",
+      "licence": "CC BY-NC-ND 4.0",
+      "anchors": "What monitoring is for and the signals it watches. CI-OBS, CI-DASH."
+    },
+    {
+      "id": "C1c",
+      "register_id": "C1",
+      "slug": "sre-book-ch11-being-on-call",
+      "title": "Site Reliability Engineering, Chapter 11: Being On-Call",
+      "url": "https://sre.google/sre-book/being-on-call/",
+      "publisher": "Google / O'Reilly Media, 2017",
+      "licence": "CC BY-NC-ND 4.0",
+      "anchors": "The on-call minimum qualification as a discipline rather than an availability claim."
+    },
+    {
+      "id": "C1d",
+      "register_id": "C1",
+      "slug": "sre-book-ch12-effective-troubleshooting",
+      "title": "Site Reliability Engineering, Chapter 12: Effective Troubleshooting",
+      "url": "https://sre.google/sre-book/effective-troubleshooting/",
+      "publisher": "Google / O'Reilly Media, 2017",
+      "licence": "CC BY-NC-ND 4.0",
+      "anchors": "Systematic over narrative diagnosis. REME-PY.1 and REME-PY.3 mastery descriptors; CI-DIAG."
+    },
+    {
+      "id": "C1e",
+      "register_id": "C1",
+      "slug": "sre-book-ch15-postmortem-culture",
+      "title": "Site Reliability Engineering, Chapter 15: Postmortem Culture: Learning from Failure",
+      "url": "https://sre.google/sre-book/postmortem-culture/",
+      "publisher": "Google / O'Reilly Media, 2017",
+      "licence": "CC BY-NC-ND 4.0",
+      "anchors": "Blameless failure analysis; the formative counterpart to a summative incident record."
+    },
+    {
+      "id": "C2",
+      "register_id": "C2",
+      "slug": "twelve-factor-app",
+      "title": "The Twelve-Factor App",
+      "url": "https://12factor.net/",
+      "publisher": "Adam Wiggins",
+      "licence": "MIT License (github.com/heroku/12factor: \"Released under the MIT License\")",
+      "anchors": "Config in the environment (III), declared dependencies (II), disposability (IX), concurrency (VIII), logs as streams (XI)."
+    },
+    {
+      "id": "C2c",
+      "register_id": "C2",
+      "slug": "twelve-factor-config",
+      "title": "The Twelve-Factor App, III. Config",
+      "url": "https://12factor.net/config",
+      "publisher": "Adam Wiggins",
+      "licence": "MIT License (github.com/heroku/12factor)",
+      "anchors": "The norm behind secrets read from the environment. Baseline B01 item B1."
+    },
+    {
+      "id": "C3a",
+      "register_id": "C3",
+      "slug": "opentelemetry-what-is",
+      "title": "What is OpenTelemetry?",
+      "url": "https://opentelemetry.io/docs/what-is-opentelemetry/",
+      "publisher": "Cloud Native Computing Foundation",
+      "licence": "CC BY 4.0 (docs); Apache 2.0 (code)",
+      "anchors": "Observability as a defined practice; OTLP. Records the three-signal statement."
+    },
+    {
+      "id": "C3b",
+      "register_id": "C3",
+      "slug": "opentelemetry-signals",
+      "title": "OpenTelemetry Concepts: Signals",
+      "url": "https://opentelemetry.io/docs/concepts/signals/",
+      "publisher": "Cloud Native Computing Foundation",
+      "licence": "CC BY 4.0 (docs); Apache 2.0 (code)",
+      "anchors": "The signal roster. Mirrored specifically because it disagrees with C3a on the count; the disagreement is the register's recorded correction."
+    },
+    {
+      "id": "C4",
+      "register_id": "C4",
+      "slug": "mlflow-tracking",
+      "title": "MLflow Tracking",
+      "url": "https://mlflow.org/docs/latest/ml/tracking/",
+      "publisher": "MLflow, a Series of LF Projects, LLC",
+      "licence": "Apache 2.0 (project); docs licence to confirm",
+      "anchors": "Run, parameter, metric, artifact, tag: the vocabulary a hand-rolled manifest approximates. REME-PY.4."
+    },
+    {
+      "id": "C5",
+      "register_id": "C5",
+      "slug": "python-packaging-writing-pyproject-toml",
+      "title": "Writing your pyproject.toml — Python Packaging User Guide",
+      "url": "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/",
+      "publisher": "Python Packaging Authority",
+      "licence": "CC BY-SA 4.0 (to confirm)",
+      "anchors": "[project.scripts], dependencies, build-system. REME-PY.5; Baseline B01 item B8."
+    },
+    {
+      "id": "D1",
+      "register_id": "D1",
+      "slug": "inspect-aisi-framework",
+      "title": "Inspect — an open-source framework for large language model evaluations",
+      "url": "https://inspect.aisi.org.uk/",
+      "publisher": "UK AI Security Institute and Meridian Labs",
+      "licence": "MIT (to confirm)",
+      "anchors": "Dataset / Solver / Scorer. The solver is prompting, sampling and scaffolding as a data structure."
+    },
+    {
+      "id": "D2",
+      "register_id": "D2",
+      "slug": "lm-evaluation-harness-readme",
+      "title": "EleutherAI lm-evaluation-harness (README)",
+      "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/main/README.md",
+      "publisher": "EleutherAI",
+      "licence": "MIT",
+      "anchors": "That harness-level implementation detail moves headline numbers. REME-PY.4."
+    },
+    {
+      "id": "E1",
+      "register_id": "E1",
+      "slug": "strubell-2019-energy-and-policy-considerations",
+      "title": "Energy and Policy Considerations for Deep Learning in NLP (Strubell, Ganesh & McCallum, ACL 2019)",
+      "url": "https://aclanthology.org/P19-1355.pdf",
+      "publisher": "Association for Computational Linguistics",
+      "licence": "CC BY 4.0 (ACL Anthology)",
+      "anchors": "Compute cost as a reportable property of a result. Crosscutting concept X5."
+    },
+    {
+      "id": "E2",
+      "register_id": "E2",
+      "slug": "patterson-2021-carbon-emissions-large-neural-network-training",
+      "title": "Carbon Emissions and Large Neural Network Training (Patterson et al., arXiv:2104.10350)",
+      "url": "https://arxiv.org/abs/2104.10350",
+      "publisher": "arXiv",
+      "licence": "arXiv nonexclusive-distrib/1.0 — NOT an open licence. arXiv may distribute; redistribution rights are not granted. Personal archival copy only.",
+      "anchors": "Method for estimating training energy and carbon. X5, training-side.",
+      "note": "Abstract page only was retrieved, not the PDF — deliberate, given the licence."
+    },
+    {
+      "id": "E3",
+      "register_id": "E3",
+      "slug": "luccioni-2024-power-hungry-processing",
+      "title": "Power Hungry Processing: Watts Driving the Cost of AI Deployment? (Luccioni, Jernite & Strubell, FAccT 2024; arXiv:2311.16863)",
+      "url": "https://arxiv.org/abs/2311.16863",
+      "publisher": "arXiv / ACM FAccT",
+      "licence": "CC BY-SA 4.0 (stated on the arXiv abstract page)",
+      "anchors": "The eval-relevant energy entry: evaluation is inference at volume. X5; REME-PY.2 cost half."
+    }
+  ]
+}

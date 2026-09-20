@@ -36,6 +36,8 @@ for and a curriculum with a real destination learns faster than one without.
 JD_LEARN_INVENTORY_modular_2026-09-19_v01_I.md   the modules, one per highlighted span, kept apart
 standards/                                        the register of external quality anchors, the
                                                   framework, and the mastery standards by core idea
+standards/ssot-mirror/                            pointers + hashes for the cited third-party texts;
+                                                  the copies themselves live in Drive, not in git
 baselines/B01_python-for-research-infrastructure/ the first baseline: design note + instrument + key
 specimens/                                        real programs the instruments and lessons read from
 Decisions/Decision Logs/claude/                   one entry per non-deterministic action
