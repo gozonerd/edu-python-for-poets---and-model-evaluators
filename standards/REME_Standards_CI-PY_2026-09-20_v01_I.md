@@ -8,11 +8,18 @@ it and by nothing wider: `JD_LEARN_INVENTORY_modular_2026-09-19_v01_I.md`, modul
 `REGISTER_external-quality-anchors_2026-09-20_v01_I.md`.
 
 **Why five.** Not chosen. The posting names one minimum qualification here, "Strong Python
-programming skills, including production or research infrastructure," and then spends four
+programming skills, including production or research infrastructure", and then spends four
 responsibility bullets and two representative projects saying what that qualification is *for*:
 reading an unfamiliar harness, hardening one, diagnosing one mid-run, making runs comparable, and
 handing the result to another researcher. Those are five distinct doings with five distinct evidence
 shapes. PY.5 sits on the CI-PY / CI-TOOL boundary and says so.
+
+**The framework's four standing assessment boundaries apply to all five standards below** and are
+not restated per standard: the working mode under assessment is orchestrating AI-assisted coding and
+no standard is evidenced by reproducing syntax from memory; no evaluative cue appears inside a content
+item on any instrument; no clock is imposed except where a standard is explicitly time-bound; and an
+instrument may accept a field term but never requires one the course has not yet taught. Each
+standard's own boundary field carries only what is specific to it.
 
 **Status: proposed.** Every statement, level and descriptor below awaits the learner's ratification.
 
@@ -28,7 +35,7 @@ shapes. PY.5 sits on the CI-PY / CI-TOOL boundary and says so.
 | **Complexity** | Bloom's **analyze** · Webb's **DOK 3** |
 | **Dimensions** | P6 · CI-PY · **X6** structure and function |
 | **Clarification** | "Strong Python programming skills, including production or research infrastructure" · "Improve the tooling, libraries, and workflows researchers use to implement and iterate on evaluations" |
-| **Assessment boundary** | Single-file or small-package harnesses; cross-machine architecture is CI-DIST. Reading and accounting, not modification, which is PY.2. Standing boundaries 1–4 apply: no syntax reproduced from memory, no evaluative cue inside the content, no clock, no required field term |
+| **Assessment boundary** | Single-file or small-package harnesses; cross-machine architecture is CI-DIST. Reading and accounting, not modification, which is PY.2 |
 | **Mastery descriptor** | The account is *systematic rather than narrative*: it proceeds by part, distinguishes what a part does from why it is there, and separates what the source states from what the reader inferred. The standard for systematic-over-guessing is **C1** ch. 12 "Effective Troubleshooting". A mastery account also names the harness's three evaluation organs where they exist — what supplies the samples, what produces the answer, what grades it — the decomposition **D1** makes explicit |
 | **Evidence statement** | Given a harness the learner has not read: (a) every top-level part is named and its cargo stated; (b) at least three parts have their encoded decision stated, not merely their behaviour; (c) at least one inference is marked as an inference; (d) no claim contradicts the source. Adjudicable by a rater holding the source |
 | **Traceability** | Minimum qualification 1 · responsibility bullet 5 · representative project 3 |
@@ -76,7 +83,8 @@ shapes. PY.5 sits on the CI-PY / CI-TOOL boundary and says so.
 - **PY.2.e** I can state what a proposed eval run will consume and justify or reduce it. *(evaluate ·
   DOK 3)*
 
-*Rungs skipped: remember. Analyze is folded into 2.c, where choosing requires the comparison.*
+*Rungs skipped: remember, analyze. Analyze is folded into 2.c, where choosing between pacing and
+concurrency requires the comparison that an analyze-level objective would have made on its own.*
 
 ---
 
@@ -106,7 +114,8 @@ shapes. PY.5 sits on the CI-PY / CI-TOOL boundary and says so.
 - **PY.3.d** I can say when a run's records are not sufficient to decide the cause, and name what
   would have to have been recorded. *(evaluate · DOK 3)*
 
-*Rungs skipped: remember, create. Directing the fix is the tail of 3.c and 3.d, not a separate build.*
+*Rungs skipped: remember. Create sits above this standard's target of evaluate and is therefore out
+of scope rather than skipped; directing the fix is the tail of 3.c and 3.d, not a separate build.*
 
 ---
 
@@ -118,9 +127,10 @@ shapes. PY.5 sits on the CI-PY / CI-TOOL boundary and says so.
 | | |
 |---|---|
 | **Complexity** | Bloom's **create** · Webb's **DOK 4** |
+| **Level justification** | The framework maps the posting's verb *characterise* to analyze, and this standard sits one rung above it. The reason is that characterising how elicitation choices move a number is impossible until someone has specified what a run must record; the specification is the create act that makes the analyze act available at all. The standard is therefore anchored to preferred qualification 4, whose demand is to build and operate the recording system, rather than to bullet 7's verb alone |
 | **Dimensions** | P8 · CI-PY · **X4** systems and system models · **X1** patterns |
 | **Clarification** | "Run experiments to characterize how prompting, sampling, and scaffolding choices affect results on internal and industry benchmarks" · "validate against known signals" · "Experience with observability, monitoring, or experiment-tracking systems" |
-| **Assessment boundary** | What must be *recorded* and why, not which tool records it; tool selection is CI-OBS. Statistical treatment of the resulting comparison is out: that is the learner's own Paper B territory and is parked by her ruling. DOK 4 because the specification has to survive a case the learner constructs against it |
+| **Assessment boundary** | What must be *recorded* and why, not which tool records it; tool selection is CI-OBS. Statistical treatment of the resulting comparison is out: that belongs to the learner's own benchmark-variance paper, whose status is recorded in the REME workbench handoff rather than asserted here. DOK 4 because the specification has to survive a case the learner constructs against it |
 | **Mastery descriptor** | The specification covers the whole surface that can move a number, not only the settings the harness happens to expose. **C4** supplies the vendor-neutral vocabulary a run record is approximating — run, parameter, metric, artifact, tag — and **C3** supplies the standard for structured, queryable signals rather than prose logs. **D2** supplies the empirical reason this matters: harness-level implementation detail changes headline numbers, which is why "same model, same benchmark" is not a specification. A mastery specification also names at least one thing that can still differ between two runs whose records match |
 | **Evidence statement** | Given a harness and a comparison someone wants to make: (a) the record specification names the model identity, the elicitation surface (prompt, sampling settings, scaffold), the input identity, and the outcome; (b) each field is justified by what it would let a reader rule out; (c) at least one residual source of difference is named and accepted; (d) the specification is checked against an actual past run and any field that run could not supply is flagged |
 | **Traceability** | Responsibility bullet 7 · preferred qualification 4 · representative project 1 |
@@ -169,7 +179,7 @@ to be argued against a residual case.*
 ## Coverage check against Baseline B01
 
 B01 was built before these standards existed, which is the wrong order and is recorded as such in
-`Decisions/Decision Logs/claude/D-20260919-02…`. It is kept because it was built from the same
+`Decisions/Decision Logs/claude/D-20260919-02_recommend-M-PY-for-the-first-baseline-and-design-B01.md`. It is kept because it was built from the same
 posting scope, and it now serves as the check on whether these standards describe something an
 instrument can actually reach.
 
@@ -192,21 +202,25 @@ instrument can actually reach.
 | B8 package and CLI shape | PY.5 | the reason PY.5 is written here |
 | B9 reproducibility knobs | PY.4 | |
 
+**Result of the check:** every one of B01's sixteen concepts maps to a standard, so categorical
+concurrence holds in that direction. The mapping table above is the evidence.
+
 **Findings from the check, stated rather than smoothed:**
 
-1. **Every B01 concept maps to a standard.** Categorical concurrence holds in that direction.
-2. **PY.1 carries seven of sixteen items.** That is a balance-of-representation warning: Band A is
-   over-weighted relative to its share of the mastery construct. B01 measures reading more heavily
+1. **PY.1 carries eight of sixteen items** — half the instrument. That is a
+   balance-of-representation warning: Band A is over-weighted relative to its share of the mastery
+   construct. B01 measures reading more heavily
    than the standards value it. This is defensible for a *baseline*, whose job is to decide where the
    strand starts, and it must not be repeated in the strand's exit instruments.
-3. **PY.4 is a DOK 4 standard measured by two DOK 2–3 items.** Depth-of-knowledge consistency fails
+2. **PY.4 is a DOK 4 standard measured by two DOK 2–3 items.** Depth-of-knowledge consistency fails
    here. B01 cannot evidence PY.4 at mastery, and no scoring of B01 should be read as doing so. The
    performance task is where PY.4 gets evidenced.
-4. **No B01 item touches the cost half of PY.2.** Item B6 names the concurrency decision but asks for
+3. **No B01 item touches the cost half of PY.2.** Item B6 names the concurrency decision but asks for
    the provider property, not the consumption. The parallel form should carry it.
-5. **PY.5's home is unresolved** until CI-TOOL is derived.
+4. **PY.5's home is unresolved** until CI-TOOL is derived.
 
-Findings 2, 3 and 4 are inputs to the evidence plan, not defects to be patched by editing B01 now.
+Findings 1, 2 and 3 are inputs to the evidence plan, not defects to be patched by editing B01 now.
+Finding 4 is a scope question that the CI-TOOL derivation closes.
 
 *Standards proposed 2026-09-20 by Flaudechamba A.-L. Formative Horizon v01 (Claude Fable 5.1, Opus 5
 build pass). Derived anchors-first from the posting, checked against Baseline B01, every mastery
