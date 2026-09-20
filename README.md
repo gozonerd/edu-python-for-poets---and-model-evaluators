@@ -1,8 +1,9 @@
 # edu-python-for-poets---and-model-evaluators
 
 Python taught the way Columbia teaches *Physics for Poets*: every foundational and major supporting
-concept, conceptually, for a learner who **directs, reads, and QAs** Python rather than hand-typing it.
-The learner is Krystal Martinez; the course is scoped to how Python appears in one job description,
+concept, conceptually, for a learner whose working mode is **orchestrating AI-assisted coding**:
+reading, directing, and QAing Python, and hand-coding the basic, frequently used commands and
+functions herself. The learner is Krystal Martinez; the course is scoped to how Python appears in one job description,
 Anthropic's *Research Engineer, Model Evaluations* posting, because that is the work she is preparing
 for and a curriculum with a real destination learns faster than one without.
 
