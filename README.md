@@ -34,10 +34,25 @@ for and a curriculum with a real destination learns faster than one without.
 
 ```
 JD_LEARN_INVENTORY_modular_2026-09-19_v01_I.md   the modules, one per highlighted span, kept apart
-baselines/B01_python-for-research-infrastructure/ the first baseline: design note + instrument
+standards/                                        the register of external quality anchors, the
+                                                  framework, and the mastery standards by core idea
+baselines/B01_python-for-research-infrastructure/ the first baseline: design note + instrument + key
 specimens/                                        real programs the instruments and lessons read from
 Decisions/Decision Logs/claude/                   one entry per non-deterministic action
 ```
+
+## Build order
+
+Standards → evidence plan → **build** the instrument → write its key or rubric **against the built
+instrument** → build the lesson that leads to it. A rubric is never written against a plan. Baseline
+B01 was built before the standards existed, which is the wrong order; it is kept, and the CI-PY
+standards file carries the coverage check that resulted, findings and all.
+
+## ASAE
+
+No `.asae-policy` at the root, so the gate does not bind and a commit here is a save. The standards
+set is flagged for **ASAE strict-5 with three independent raters** after its improvement pass;
+nothing in this repository has passed a gate.
 
 ## Provenance and rights
 
